@@ -6,15 +6,15 @@
  
  - **Main.m:** main code of task recommendation.
  
- - **Task_Dist:** sensing tasks initialization.
+ - **Task_Dist.m:** sensing tasks initialization.
  
- - **Candi_Init:** candidate MOD drivers initialization.
+ - **Candi_Init.m:** candidate MOD drivers initialization.
  
- - **Calc_Profit_Origin:** calculating Original profit without LSTRec.
+ - **Calc_Profit_Origin.m:** calculating Original profit without LSTRec.
  
- - **Calc_Dis_Time:** calculating distance and time of each driver-task pair.
+ - **Calc_Dis_Time.m:** calculating distance and time of each driver-task pair.
  
- - **Calc_Reward:** calculating sensing reward for MOD drivers.
+ - **Calc_Reward.m:** calculating sensing reward for MOD drivers.
  
-- **LSTRec:** Task recommendation algorithm of LSTRec.
+- **LSTRec.m:** Task recommendation algorithm of LSTRec.
 
