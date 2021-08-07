@@ -98,17 +98,16 @@ for i=1:125
 end
 %%
 %Sensing task initialization
-%[task_dist]=uniform_dis(date,hour,density);
-[task_dist]=random_dis(date,hour,task_num);             
-[free_taxi]=init_free(datenum([year month date hour-1 55 0]),file_name,time,busy,Lat,Lont,minimal_gradularity,expe_zone);
+%[task_dist]=Task_Dist(date,hour,density);           
+[free_taxi]=Candi_Init(datenum([year month date hour-1 55 0]),file_name,time,busy,Lat,Lont,minimal_gradularity,expe_zone);
 %%
 %Calculate sensing cost and original revenue
-[distance_time]=calc_dis_time(expe_zone,task_dist,free_taxi);
-[cost] = calc_cost(distance_time,rate,profit);
-[r_reject] = calc_r_reject(distance_time,rate,profit);
+[distance_time]=Calc_Dis_Time(expe_zone,task_dist,free_taxi);
+[cost] = Calc_Reward(distance_time,rate,profit);
+[r_reject] = Calc_Profit_Origin(distance_time,rate,profit);
 %%
 %Perform algorithm
- [result] = MOVE_CS(cost,budget,task_dist,r_reject);
+ [result] = LSTRec(cost,budget,task_dist,r_reject);
 
 
 
