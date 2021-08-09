@@ -10,11 +10,11 @@
  
  - **Candi_Init.m:** candidate MOD drivers initialization.
  
- - **Calc_Profit_Origin.m:** calculating Original profit without LSTRec.
+ - **Calc_Profit_Origin.m:** calculating original profits without LSTRec.
  
- - **Calc_Dis_Time.m:** calculating distance and time of each driver-task pair.
+ - **Calc_Dis_Time.m:** calculating distance and time consumption of each driver-task pair.
  
- - **Calc_Reward.m:** calculating sensing reward for MOD drivers.
+ - **Calc_Reward.m:** calculating sensing rewards for MOD drivers.
  
 - **LSTRec.m:** Task recommendation algorithm of LSTRec.
 
