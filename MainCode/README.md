@@ -1,10 +1,10 @@
 # MOVE-CS.github.io
 
- - **Pre_Process.py:** pick-up profit heatmap construction. 
+ - **Pre_Process.py:** pick-up profit historical heatmap construction. 
  
  - **Attention_Based_RNN.py:** pick-up profit heatmap prediction.
  
- - **Main.m:** main code of task recommendation.
+ - **Main.m:** main code of LSTRec system.
  
  - **Task_Dist.m:** sensing tasks initialization.
  
@@ -16,5 +16,5 @@
  
  - **Calc_Reward.m:** calculating sensing rewards for MOD drivers.
  
-- **LSTRec.m:** Task recommendation algorithm of LSTRec.
+- **LSTRec.m:** task recommendation algorithm of LSTRec.
 
