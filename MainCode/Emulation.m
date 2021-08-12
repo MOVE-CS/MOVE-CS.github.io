@@ -65,22 +65,7 @@ for i=1:length(files)
     [Lat{i},Lont{i},time{i},busy{i}]=textread(file_name{i},'%f %f %*f %s %d %*f','delimiter',',');
 end
 %%
-%Parameters initialization
-year = 2017;
-month = 3;
-density=2;
-date = 1;
-hour = 8;
-budget = 500;
-task_num=100;
-%%
-%Pick up probability and expected revenue initialization
-count=readtable('count8.csv');
-pick=readtable('pick8.csv');    
-profit=readtable('profit8.csv');
-count = table2cell(count);
-pick = table2cell(pick);
-profit = table2cell(profit);
+%Initialization
 for i=1:125
     for j=1:14
         profit{i,j}=profit{i,j}/pick{i,j};

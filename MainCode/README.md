@@ -4,7 +4,7 @@
  
  - **Attention_Based_RNN.py:** pick-up profit heatmap prediction.
  
- - **Main.m:** main code of LSTRec system.
+ - **Emulation.m:** emulation code of LSTRec system.
  
  - **Task_Dist.m:** sensing tasks initialization.
  
