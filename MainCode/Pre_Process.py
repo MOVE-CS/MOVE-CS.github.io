@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import os
 from tqdm import tqdm
 import pandas as pd 
@@ -9,19 +7,19 @@ def k2p(dis):
 
 
 if __name__=='__main__':
-    file_path = 'E:/LiYaoyu/taxi_tra'
-    windows = 60
-    n_days = 31
+    file_path = x
+    windows = x
+    n_days = x
     file_list = os.listdir(file_path)
 
-    delta = 0.0025
+    delta = x
 
-    base_lat = 29.501652
-    base_lon = 106.435680
+    base_lat = x
+    base_lon = x
 
 
-    lat_num = 56
-    lon_num = 72
+    lat_num = x
+    lon_num = x
     
     lat_min=base_lat
     lat_max=base_lat+(lat_num)*delta
@@ -65,7 +63,7 @@ if __name__=='__main__':
                 dis = 0
 
     for j in range((24*60//windows)):
-        np.savetxt('result3/count6' + '_' + str(j) +
+        np.savetxt('result/count6' + '_' + str(j) +
                    '.csv', count[j], fmt='%i', delimiter=',')
-        np.savetxt('result3/profit6' + '_' + str(j) +
+        np.savetxt('result/profit6' + '_' + str(j) +
                    '.csv', profit[j], fmt='%.3f', delimiter=',')

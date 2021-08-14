@@ -1,4 +1,3 @@
-%发布均匀分布任务
 function [task_dist] = uniform_dis(date,start_time,density)
 for i=1:125
     %for j=1:end_time-start_time

@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -121,23 +118,23 @@ def model(X_train,y_train):
 
 if __name__=='__main__':
 
-    loc_name_list=['141','234']
-    data_name_list=['Profit','Cout']
-    exp_time=5
+    loc_name_list=[x,x]
+    data_name_list=[x,x]
+    exp_time=x
     
-    input_len_list=[12,24,48,64,96,120]
-    output_len=3
-    input_dim=10
-    output_dim=1
+    input_len_list=[x,x,x,x,x,x]
+    output_len=x
+    input_dim=x
+    output_dim=x
 
-    epochs = 500
-    depth = 3
-    hidden_dim = 50
-    batch_size = 32
-    period = 1
-    dpi = 600
-    figsize = (10, 6)
-    x_label='Date'
+    epochs = x
+    depth = x
+    hidden_dim = x
+    batch_size = x
+    period = x
+    dpi = x
+    figsize = (x, x)
+    x_label=x
 
     for loc_name in loc_name_list:
         for exp_t in range(1,exp_time+1):
