@@ -69,7 +69,7 @@
             <p style="line-height: 2em; text-indent: 2em">
                 We release our dataset <a href="https://drive.google.com/drive/folders/1xpAnUqOlRN6cOK5Yy7cKvEIt1HbV42B4?usp=sharing">on Google Driver</a>, since the data size is larger than 10GB. The dataset consists of two folders, i.e., <b>Vehicle_data</b> and <b>MTurk_data</b>. Please cite this study(IEEE INFOCOM 2022 Submission #1570745558, title "A Comparative Approach to Resurrecting the Market of MOD Vehicular Crowdsensing") when using the data.
                 <ul>
-                    <li><b>Vehicle_data:</b> The Vehicle_data folder contains 12,493 txt files, and each file contains a MOD driver's trajectory in a month(3/1/2020-3/31/2020). Each line denotes a data point at the sampling frequency about 15 seconds. The descriptions of the fields of Vehicle_data are as follows:</li>
+                    <li><b>Vehicle_data:</b> The Vehicle_data folder contains 12,493 txt files, and each file contains a MOD driver's trajectories in a month(3/1/2020-3/31/2020). Each line denotes a data point at the sampling frequency about 15 seconds. The descriptions of the fields of Vehicle_data are as follows:</li>
                 <table border="1">
                     <tr>
                     <th>&nbsp Field of Dataset &nbsp</th>
@@ -89,7 +89,7 @@
                     </tr>
                     <tr>
                     <td>&nbsp &nbsp &nbsp &nbsp Column 4</td>
-                    <td>sampling time slot</td>
+                    <td>corresponding sampling time slot</td>
                     </tr>
                     <tr>
                     <td>&nbsp &nbsp &nbsp &nbsp Column 5</td>
@@ -100,7 +100,7 @@
                     <td>distance from the latest time slot</td>
                     </tr>
                 </table>
-                <li><b>MTurk_data:</b> The MTurk_data folder contains the survey results from 581 participants on Amazon Mechanical Turk, which can be checked <a href="https://forms.gle/QuRkkgpssdErH7dp8">on Google Docs</a>.</li>
+                <li><b>MTurk_data:</b> The MTurk_data folder contains the survey results from 581 participants on Amazon Mechanical Turk. The queries can be checked <a href="https://forms.gle/QuRkkgpssdErH7dp8">on Google Docs</a>.</li>
                 </ul>
             </p>
 
@@ -109,7 +109,7 @@
                 3. Code
             </h2>
             <p style="line-height: 2em; text-indent: 2em">
-                We provide the code of this study <a href="https://github.com/MOVE-CS/MOVE-CS.github.io/tree/master/MainCode">on github</a>. As shown in Fig. 1, the system of this study consists of 3 modules as follows:
+                We share the code of this study <a href="https://github.com/MOVE-CS/MOVE-CS.github.io/tree/master/MainCode">on github</a>. As shown in Fig. 1, the code mainly consists of three modules: pick-up profit heatmap construction module, differentiation-aware sensing reward design module and submodularity-based task recommendation module. Each module includes several python files or matlab files.
                 <img style="width: 30em; margin-left: 200px;" src="Overview.jpg"/>
                 <ul>
                     <li>
@@ -121,6 +121,7 @@
                     <li>
                         <b>Submodularity-based task recommendation:</b> LSTRec.m.
                     </li>
+                The files are briefly introduced in the following table:
                 <table border="1">
                     <tr>
                     <th>&nbsp File Name &nbsp</th>
