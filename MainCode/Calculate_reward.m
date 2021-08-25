@@ -1,4 +1,3 @@
-%¼ÆËã¿ªÏú
 function [cost] = calc_cost(distance_time,rate,profit)
 for i=1:length(distance_time)
     cost{i}(1)=distance_time{i}(1);

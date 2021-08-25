@@ -1,4 +1,3 @@
-%计算每个任务被每辆车完成所需路程和时间并清洗掉不合格的车
 function [distance_time] = calc_dis_time(expe_zone,task_dist,free_taxi)
 l=1;
 for i=1:length(task_dist)

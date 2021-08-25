@@ -1,4 +1,3 @@
-%¼ÆËã¿ªÏú
 function [r_reject] = calc_r_reject(distance_time,rate,profit)
 for i=1:length(distance_time)
     
