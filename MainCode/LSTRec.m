@@ -1,5 +1,5 @@
 function [MOVE_CS_result] = MOVE_CS(cost,budget,task_dist,r_reject)
-
+ 
 k=1;
 for i=1:1000
     flag(i)=0;
